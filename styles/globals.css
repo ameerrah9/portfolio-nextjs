@@ -7,5 +7,22 @@
   body {
     @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide;
   }
+
+  /* this code adds a bold font family all header elements */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
+  }
+
+  /* add large text style to h1 */
+  /* sm:text-5xl means that the text will be 5xl (5 times the base font size) on small screens and up */
+  /* md:text-6xl means that the text will be 6xl (6 times the base font size) on medium screens and up */
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl;
+  }
 }
 /* tracking-wide is a utility class that adds letter-spacing to the text */
