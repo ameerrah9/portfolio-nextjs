@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+import { FaLinkedinIn } from 'react-icons/fa';
 
 const Navbar = () => {
   return (
@@ -73,6 +74,9 @@ const Navbar = () => {
               <p className='uppercase tracking widest text-[#5651e5]'>
                 Let's Connect
               </p>
+              <div className=''>
+                <FaLinkedinIn size={25} />
+              </div>
             </div>
           </div>
         </div>
