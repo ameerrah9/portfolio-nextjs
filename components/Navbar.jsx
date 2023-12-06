@@ -10,7 +10,7 @@ const Navbar = () => {
   const [nav, setNav] = React.useState(false);
 
   const handleNav = () => {
-    setNav(true);
+    setNav(!nav);
   };
 
   return (
