@@ -28,5 +28,16 @@
   h2 {
     @apply text-3xl sm:text-4xl;
   }
+
+  /* add cursor-pointer to all li elements */
+  /* this makes the cursor change to a pointer when hovering over the li elements */
+  li {
+    @apply cursor-pointer;
+  }
+
+  /* add shadow to all buttons */
+  button {
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white;
+  }
 }
 /* tracking-wide is a utility class that adds letter-spacing to the text */
