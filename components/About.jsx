@@ -42,13 +42,11 @@ const About = () => {
             Check out some of my latest projects
           </p>
         </div>
-        <div className=''>
-          <Image
+        <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center hover:scale-105 ease-in duration-300'>
+          <img
             src='/assets/laptopDesk.jpg'
             alt='/'
-            width={2200}
-            height={2200}
-            className='rounded-xl'
+            className='shadow-xl shadow-gray-400 rounded-xl'
           />
         </div>
       </div>
